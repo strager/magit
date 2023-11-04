@@ -472,7 +472,7 @@ the redundant bindings, then set this to nil, before loading
              (string-match-p git-commit-filename-regexp buffer-file-name))
     (git-commit-setup-font-lock)))
 
-(add-hook 'after-change-major-mode-hook #'git-commit-setup-font-lock-in-buffer)
+;(add-hook 'after-change-major-mode-hook #'git-commit-setup-font-lock-in-buffer)
 
 (defun git-commit-setup-check-buffer ()
   (when (and buffer-file-name
