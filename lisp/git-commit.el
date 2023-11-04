@@ -126,8 +126,8 @@
 (require 'with-editor)
 
 ;; For historic reasons Magit isn't a hard dependency.
-(require 'magit-base nil t)
-(require 'magit-git nil t)
+;(require 'magit-base nil t)
+;(require 'magit-git nil t)
 (declare-function magit-completing-read "magit-base"
                   ( prompt collection &optional predicate require-match
                     initial-input hist def fallback))
