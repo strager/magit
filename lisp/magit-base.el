@@ -1150,8 +1150,8 @@ the value in the symbol's `saved-value' property if any, or
       (funcall fn fork))))
 
 ;;;###autoload
-(advice-add 'Info-follow-nearest-node :around
-            #'Info-follow-nearest-node--magit-gitman)
+;(advice-add 'Info-follow-nearest-node :around
+;            #'Info-follow-nearest-node--magit-gitman)
 
 ;; When making changes here, then also adjust the copy in docs/Makefile.
 ;;;###autoload
