@@ -111,7 +111,7 @@
 
 ;;; Code:
 
-(require 'compat)
+;(require 'compat)
 (require 'subr-x)
 
 (when (and (featurep' seq)
